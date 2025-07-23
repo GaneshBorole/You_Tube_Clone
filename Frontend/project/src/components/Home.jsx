@@ -4,6 +4,7 @@ import Sidebar from './Sidebar'
 import { useAuth } from '../context/AuthProvider'
 import ListItems from './Listitems'
 
+
 function Home() {
     const { data, loading } = useAuth();
     console.log(data);
