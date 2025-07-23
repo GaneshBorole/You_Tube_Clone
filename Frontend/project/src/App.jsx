@@ -4,11 +4,13 @@ import { Routes, Route } from "react-router-dom";
 import Search from "./components/Search";
 import Home from "./components/Home";
 import PlayingVideo from "./components/PlayingVideo";
+
 import Loading from "./loader/Loading";
 import { useAuth } from "./context/AuthProvider";
 
 function App() {
   const {loading}=useAuth();
+
   return (
     <>
     {loading && <Loading />}

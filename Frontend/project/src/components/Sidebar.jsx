@@ -8,7 +8,8 @@ import { AiOutlineLike } from "react-icons/ai";
 import { FaChevronRight } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 import { SiYoutubestudio } from "react-icons/si";
-import { SiYoutubekids } from "react-icons/si";
+
+
 import { MdOutlineWatchLater } from "react-icons/md";
 import { SiYoutubemusic } from "react-icons/si";
 import { SiTrendmicro } from "react-icons/si";
@@ -149,7 +150,7 @@ function Sidebar() {
     {
       id: 4,
       name: "Youtube Kids",
-      icon: <SiYoutubekids />,
+      // icon: <SiYoutubekids />,
     },
   ];
   return (
