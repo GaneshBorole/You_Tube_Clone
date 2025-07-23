@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Time from "../loader/Time";
 import { BsFillCheckCircleFill } from "react-icons/bs";
 import { abbreviateNumber } from "js-abbreviation-number";
+import SuggestedVideo from './SuggestedVideo';
 
 function Video({video}) {
   console.log(video);
